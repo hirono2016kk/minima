@@ -6,25 +6,15 @@ description: > # this means to ignore newlines until "twitter_username:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 
-# social links
-twitter_username: jekyllrb
-github_username:  jekyll
-rss: rss
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jekyll
-# linkedin_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: jekyll
-# googleplus_username: +jekyll
+title: 奉納＼危険生物・弁護士脳汚染除去装置＼金沢地方検察庁御中
+email: hirono2013k@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+ 弁護士と裁判官が共同で確定させた傷害・準強姦被告事件判決の再捜査要請に係る石川県警察珠洲警察署提出書面の関連資料の情報公開
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: hirono_hideki
+github_username: hirono2016kk
 
-# Mastodon instances
-# mastodon:
-# - username: jekyll
-#   instance: example.com
-# - username: jekyll2
-#   instance: example.com
 
 
 show_excerpts: false # set to true to show excerpts on the homepage

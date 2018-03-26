@@ -1,9 +1,19 @@
 ---
-#
-# By default, content added below the "---" mark will appear in the home page
-# between the top bar and the list of recent posts.
-# To change the home page layout, edit the _layouts/home.html file.
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-#
-layout: home
+layout: post
 ---
+{% for category in site.categories %}
+  <h4>{{ category[0] }}</h4>
+  <ul>
+  {% for posts in category %}
+    {% for post in posts %}
+      {% if post.title != nil %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  </ul>
+{% endfor %}
+
