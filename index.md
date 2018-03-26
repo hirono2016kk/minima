@@ -2,9 +2,9 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: post
+layout: home
 ---
-{% for category in site.categories %}
+<!--{% for category in site.categories %}
   <h4>{{ category[0] }}</h4>
   <ul>
   {% for posts in category %}
@@ -15,5 +15,5 @@ layout: post
     {% endfor %}
   {% endfor %}
   </ul>
-{% endfor %}
+{% endfor %}-->
 
